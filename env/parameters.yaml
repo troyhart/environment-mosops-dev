@@ -1,0 +1,15 @@
+adminUser:
+  password: local:mosops/adminUser:password
+  username: admin
+docker:
+  email: troy.hart@gmail.com
+  password: local:mosops/docker:password
+  url: https://index.docker.io/v1/
+  username: troyhart
+enableDocker: true
+pipelineUser:
+  email: thart@myriad.com
+  token: local:mosops/pipelineUser:token
+  username: troyhart
+prow:
+  hmacToken: local:mosops/prow:hmacToken

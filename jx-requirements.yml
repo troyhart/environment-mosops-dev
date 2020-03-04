@@ -13,11 +13,12 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: kubernetes
+  registry: docker.io
 environments:
 - ingress:
-    domain: ""
+    domain: 10.1.18.114.nip.io
     externalDNS: false
-    namespaceSubDomain: ""
+    namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
