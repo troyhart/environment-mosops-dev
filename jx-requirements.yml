@@ -2,7 +2,10 @@ autoUpdate:
   enabled: false
   schedule: ""
 bootConfigURL: https://github.com/troyhart/environment-mosops-dev
-cluster:  
+cluster:
+  clusterName: mosops
+  devEnvApprovers:
+  - troyhart
   environmentGitOwner: troyhart
   environmentGitPublic: true
   gitKind: github
@@ -20,6 +23,7 @@ environments:
       enabled: false
       production: false
   key: dev
+  repository: environment-mosops-dev
 - ingress:
     domain: ""
     externalDNS: false
@@ -29,6 +33,7 @@ environments:
       enabled: false
       production: false
   key: staging
+  repository: environment-mosops-staging
 - ingress:
     domain: ""
     externalDNS: false
@@ -38,9 +43,10 @@ environments:
       enabled: false
       production: false
   key: production
+  repository: environment-mosops-production
 gitops: true
 ingress:
-  domain: ""
+  domain: 10.1.18.114.nip.io
   externalDNS: false
   namespaceSubDomain: -jx.
   tls:
@@ -68,6 +74,6 @@ velero:
   schedule: ""
   ttl: ""
 versionStream:
-  ref: master
+  ref: v1.0.376
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
