@@ -102,7 +102,7 @@
 {{- if and (ne .Requirements.cluster.provider "gke") (ne .Requirements.cluster.provider "eks") (ne .Requirements.cluster.provider "aks") }}
       "const": true,
 {{- end}}
-      "description": "By default Jenkins X will use the docker registry from the cloud provider. If you want to configure an external docker registry such as Docker Hub or your own existing docker registry enter Y"
+      "description": "By default Jenkins X will use the docker registry from the cloud provider. If you want to configure an external docker registry such as Docker Hub or your own existing docker registry enter Y, otherwise enter N"
     }
   },
   "allOf": [
