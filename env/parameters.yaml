@@ -1,6 +1,7 @@
 adminUser:
   password: local:mosops/adminUser:password
   username: admin
+enableDocker: false
 pipelineUser:
   email: thart@myriad.com
   token: local:mosops/pipelineUser:token
