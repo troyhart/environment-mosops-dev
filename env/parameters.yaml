@@ -1,12 +1,7 @@
 adminUser:
   password: local:mosops/adminUser:password
   username: admin
-docker:
-  email: thart@myriad.com
-  password: local:mosops/docker:password
-  url: https://docker-registry-default.dxops.myriad.com:5000
-  username: thart
-enableDocker: true
+enableDocker: false
 pipelineUser:
   email: thart@myriad.com
   token: local:mosops/pipelineUser:token
