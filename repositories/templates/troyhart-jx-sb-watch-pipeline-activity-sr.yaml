@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: troyhart
+    provider: github
+    repository: jx-sb-watch-pipeline-activity
+  name: troyhart-jx-sb-watch-pipeline-activity
+spec:
+  description: Imported application for troyhart/jx-sb-watch-pipeline-activity
+  httpCloneURL: https://github.com/troyhart/jx-sb-watch-pipeline-activity.git
+  org: troyhart
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-sb-watch-pipeline-activity
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/troyhart/jx-sb-watch-pipeline-activity.git

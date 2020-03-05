@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: troyhart
+  repo: jx-sb-watch-pipeline-activity
+  url: https://github.com/troyhart/jx-sb-watch-pipeline-activity.git
+  version: ""
+  versionURL: ""
