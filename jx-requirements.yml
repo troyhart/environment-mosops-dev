@@ -13,7 +13,7 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: kubernetes
-  registry: https://docker-registry-default.dxops.myriad.com:5000
+  registry: docker.io
 environments:
 - ingress:
     domain: 10.1.18.114.nip.io
