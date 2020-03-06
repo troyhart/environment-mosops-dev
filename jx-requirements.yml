@@ -13,7 +13,7 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: openshift
-  registry: docker-registry.default.svc
+  registry: docker-registry.default.svc:5000.cluster.local
 environments:
 - ingress:
     domain: 10.1.18.114.nip.io
