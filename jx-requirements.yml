@@ -16,7 +16,7 @@ cluster:
   registry: docker-registry.default.svc.cluster.local:5000
 environments:
 - ingress:
-    domain: 10.1.18.114.nip.io
+    domain: dxops.myriad.com
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
@@ -47,7 +47,7 @@ environments:
   repository: environment-mosops-production
 gitops: true
 ingress:
-  domain: 10.1.18.114.nip.io
+  domain: dxops.myriad.com
   externalDNS: false
   namespaceSubDomain: -jx.
   tls:
