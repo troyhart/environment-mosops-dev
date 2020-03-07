@@ -13,7 +13,7 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: openshift
-  registry: docker-registry.default.svc.cluster.local:5000
+  registry: jenkins-x-docker-registry.jx.svc.cluster.local:5000
 environments:
 - ingress:
     domain: dxops.myriad.com
