@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/troyhart/jx-sb-watch-pipeline-activity.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: troyhart
+  repo: jx-spring-web
+  url: https://github.com/troyhart/jx-spring-web.git
+  version: ""
+  versionURL: ""
