@@ -13,6 +13,7 @@ cluster:
   gitServer: https://github.com
   namespace: jx
   provider: openshift
+  registry: docker-registry.default.svc:5000
 environments:
 - ingress:
     domain: dxops.myriad.com
