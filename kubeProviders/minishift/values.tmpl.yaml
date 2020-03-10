@@ -61,4 +61,4 @@ jenkins:
       value: "false"
   Global:
     EnvVars:
-      DOCKER_REGISTRY: "docker-registry.default.svc:5000"
+      DOCKER_REGISTRY: "docker-registry.default.svc.cluster.local:5000"
