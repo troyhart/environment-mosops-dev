@@ -1,0 +1,10 @@
+adminUser:
+  password: local:mosops/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: troy.hart@gmail.com
+  token: local:mosops/pipelineUser:token
+  username: troyhart
+prow:
+  hmacToken: local:mosops/prow:hmacToken
