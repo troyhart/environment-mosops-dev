@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: troyhart
+    provider: github
+    repository: bloxlet-coral-config
+  name: troyhart-bloxlet-coral-config
+spec:
+  description: Imported application for troyhart/bloxlet-coral-config
+  httpCloneURL: https://github.com/troyhart/bloxlet-coral-config.git
+  org: troyhart
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: bloxlet-coral-config
+  scheduler:
+    kind: ""
+    name: ""
+  url: git@github.com:troyhart/bloxlet-coral-config.git
