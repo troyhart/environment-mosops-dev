@@ -1,7 +1,7 @@
 dependencies:
 - host: github.com
   owner: troyhart
-  repo: spring-demo4jx1
-  url: https://github.com/troyhart/spring-demo4jx1.git
+  repo: bloxlet-coral-config
+  url: https://github.com/troyhart/bloxlet-coral-config.git
   version: ""
   versionURL: ""
