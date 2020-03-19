@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[troyhart/bloxlet-coral-config](https://github.com/troyhart/bloxlet-coral-config.git) |  | []() | 
+[troyhart/spring-demo4jx1](https://github.com/troyhart/spring-demo4jx1.git) |  | []() | 
