@@ -2,4 +2,4 @@
 
 Dependency | Sources | Version | Mismatched versions
 ---------- | ------- | ------- | -------------------
-[troyhart/spring-demo4jx1](https://github.com/troyhart/spring-demo4jx1.git) |  | []() | 
+[troyhart/jx-spring1](https://github.com/troyhart/jx-spring1.git) |  | []() | 
