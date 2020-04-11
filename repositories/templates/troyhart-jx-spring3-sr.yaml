@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: troyhart
+    provider: github
+    repository: jx-spring3
+  name: troyhart-jx-spring3
+spec:
+  description: Imported application for troyhart/jx-spring3
+  httpCloneURL: https://github.com/troyhart/jx-spring3.git
+  org: troyhart
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-spring3
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/troyhart/jx-spring3.git
