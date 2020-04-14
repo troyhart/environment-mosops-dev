@@ -11,3 +11,9 @@ dependencies:
   url: https://github.com/troyhart/jx-spring3.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: troyhart
+  repo: jx-spring4
+  url: https://github.com/troyhart/jx-spring4.git
+  version: ""
+  versionURL: ""
